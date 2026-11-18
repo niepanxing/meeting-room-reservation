@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: meeting-room-reservation
+
+app:
+  # 预约数据存放目录（JSON文件持久化），默认为运行目录下的 data 文件夹
+  data-dir: data
+  # 会议室开放时间段（24小时制，半小时一格）
+  open-time: "09:00"
+  close-time: "21:00"

@@ -1,0 +1,13 @@
+# 构建产物（编译生成的 jar/class，不上传）
+target/
+*.class
+
+# 运行时数据（本地预约数据，不上传）
+data/
+
+# 系统/编辑器文件
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
